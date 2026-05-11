@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnoTech .:. JFMG - Es Innovación Tecnológica</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <h1>InnoTech .:. JFMG</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#articulos">Artículos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="seccionPrincipal">
+        <div class="contenedor">
+            <h1>El futuro de la tecnología hoy</h2>
+            <p>Explora las últimas tendencias y descubrimientos en el mundo digital.</p>
+        </div>
+    </section>
+
+    <section id="articulos" class="contenedor">
+        <h2>Artículos Destacados</h2>
+        <div class="cuadricula-articulos">
+            <article class="tarjetas">
+                <a href="#IA" class="tarjeta-sensible">
+                    <div class="contenido">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&auto=format&fit=crop&q=60" alt="Tecnología e innovación">
+                        <h2>Inteligencia Artificial</h2>
+                        <p>Descubre cómo la IA está transformando nuestras vidas cotidianas y los negocios.</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="tarjetas">
+                <a href="#Desarrollo" class="tarjeta-sensible">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&auto=format&fit=crop&q=60" alt="Programación y computadoras">
+                    <h2>Desarrollo de Software</h2>
+                    <p>Lenguajes de programación y herramientas que todo desarrollador debe conocer.</p>
+                </a>
+            </article>
+
+            <article class="tarjetas">
+                <a href="#Gadget" class="tarjeta-sensible">
+                    <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&auto=format&fit=crop&q=60" alt="Dispositivos y gadgets">
+                    <h2>Gadgets del 2026</h2>
+                    <p>Los dispositivos más innovadores y revolucionarios que están marcando tendencia este año.</p>
+                </a>
+            </article>
+        </div>
+    </section>
+
+    <form action="/procesar-datos" method="POST">
+        <center>REGISTRO DE CLIENTES POTENCIALES</center>
+        <div class="contenedor-tabla">
+            <table border=1 align="center">
+                <tr>
+                    <td width="150px"><label for="usuario">Nombre de cliente:</label></td>
+                    <td width="150px"><input type="text" id="usuario" name="usuario" required minlength="4"></td>
+                </tr>
+                <tr>
+                    <td><label for="correo">Correo electrónico:</label></td>
+                    <td><input type="email" id="correo" name="correo" required></td>
+                </tr>
+                <tr>
+                    <td><label for="edad">Edad:</label></td>
+                    <td><input type="number" id="edad" name="edad" min="18" max="99"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"  align="center"><button type="submit">Registrar Cliente</button></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+
+    <section id="IA" class="seccionPrincipal">
+        <div class="contenedor">
+            <h2>Inteligencia Artificial</h2>
+            <p>La Inteligencia Artificial (IA) es un campo de la informática que se dedica a crear sistemas capaces de realizar tareas que, normalmente, requerirían del razonamiento humano. Esto incluye aprender, resolver problemas, reconocer patrones y comprender el lenguaje.
+            A diferencia de un software tradicional que sigue reglas fijas, la IA "aprende" a partir de grandes volúmenes de datos.<br><br>
+            1. ¿Cómo funciona?<br><br>
+            La mayoría de la IA moderna se basa en el Machine Learning (Aprendizaje Automático), donde el sistema identifica patrones en la información para hacer predicciones. Una rama más profunda es el Deep Learning (Aprendizaje Profundo), que utiliza estructuras llamadas redes neuronales para imitar vagamente cómo el cerebro humano procesa la información.
+            Shutterstock Explorar<br><br>
+
+            2. Tipos de Inteligencia Artificial <br><br>
+            La IA se clasifica generalmente según su capacidad:
+            IA Débil (o Estrecha): Diseñada para una tarea específica. Ejemplos: Siri, los algoritmos de recomendación de Netflix o el reconocimiento facial de tu móvil. Es la única que existe actualmente.
+            IA Fuerte (o General): Un sistema hipotético que tendría la capacidad de entender o aprender cualquier tarea intelectual que un ser humano pueda realizar.
+            IA Generativa: Una evolución reciente (como ChatGPT o Midjourney) capaz de crear contenido original (texto, imágenes, código) a partir de instrucciones simples.<br>
+
+            3. Aplicaciones en la vida diaria<br><br>
+            La IA ya no es ciencia ficción; está en casi todas partes:
+            Medicina: Diagnóstico de enfermedades mediante el análisis de radiografías con mayor precisión que el ojo humano.
+            Finanzas: Detección de fraudes bancarios en tiempo real.
+            Transporte: Desarrollo de vehículos autónomos y optimización de rutas logísticas.
+            Educación: Tutores personalizados que se adaptan al ritmo de cada estudiante.
+
+            4. Desafíos y Ética<br><br>
+            El rápido crecimiento de la IA ha generado debates importantes sobre:
+            Desplazamiento laboral: La automatización de tareas antes realizadas por personas.
+            Sesgos: Si los datos con los que se entrena a la IA son prejuiciosos, la IA también lo será.
+            Privacidad: Cómo se utilizan y protegen nuestros datos personales.<br><br>
+
+            En resumen: La IA no es una entidad consciente, sino una herramienta extremadamente potente que actúa como un "multiplicador" de la capacidad humana, permitiéndonos procesar información a una velocidad y escala antes imposibles.</p>
+        </div>
+    </section>
+
+    <section id="Desarrollo" class="seccionPrincipal">
+        <div class="contenedor">
+            <h1>Mundo del desarrollo de software</h2>
+            <p>
+                El mundo del desarrollo de software es el motor que impulsa la era digital. Básicamente, consiste en el proceso de concebir, diseñar, programar y mantener aplicaciones y sistemas que resuelven problemas o facilitan tareas mediante el uso de lenguajes de programación.<br><br>
+                Aquí tienes un mapa simplificado de cómo se divide y qué está pasando en esta industria hoy:<br><br>
+
+                1. Las grandes áreas (¿Dónde se construye?).<br><br>
+                El desarrollo no es un bloque monolítico; se divide principalmente según dónde se ejecuta el código:
+                Frontend: Es la parte que el usuario ve y toca (la interfaz). Se construye principalmente con HTML, CSS y JavaScript.<br>
+                Backend: Es "detrás de escena". Se encarga de la lógica, las bases de datos y la seguridad. Lenguajes comunes: Python, Java, Node.js, Go o Ruby.<br> 
+                Mobile: Creación de apps para teléfonos. Puede ser nativo (Swift para iOS, Kotlin para Android) o multiplataforma (React Native, Flutter).<br>
+                DevOps: No programa la app en sí, sino que se asegura de que el sistema donde corre la app sea estable y se actualice automáticamente.<br><br>
+
+                2. Metodologías de trabajo<br><br>
+                Ya no se programa "a ciegas". La industria utiliza marcos de trabajo para ser eficientes:
+                Agile / Scrum: Se trabaja en ciclos cortos (2 a 4 semanas) llamados sprints, entregando pequeñas mejoras constantes en lugar de un producto final tras un año de espera.
+                Control de versiones: Herramientas como Git (y plataformas como GitHub) son obligatorias. Permiten que cientos de programadores trabajen en el mismo código sin borrarse el trabajo unos a otros.
+
+                3. El cambio de paradigma: La IA en el código<br><br>
+                En el 2026, el desarrollo ha cambiado drásticamente. Los programadores ya no solo escriben código línea por línea, sino que actúan como "arquitectos de prompts" y supervisores de modelos de IA que generan código base, detectan errores y sugieren optimizaciones en tiempo real.<br><br>
+
+                4. Perfil del desarrollador actual<br><br>
+                Hoy en día, ser desarrollador es mucho más que saber matemáticas o lógica; se requieren "Habilidades Blandas" (Soft Skills):
+                Resolución de problemas: Más que saber sintaxis, importa saber cómo desglosar un problema grande en partes pequeñas.
+                Aprendizaje constante: Un lenguaje de programación puede pasar de moda en 5 años. La curiosidad es la habilidad más rentable.
+                Colaboración: El software moderno es demasiado complejo para que lo haga una sola persona.<br><br>
+
+                5. Tendencias clave<br><br>
+                Cloud Computing: Casi nada se aloja ya en servidores físicos propios; todo vive en la nube (AWS, Azure, Google Cloud).
+                Ciberseguridad: Con el aumento de ataques, la seguridad ya no es el último paso, sino que se integra desde la primera línea de código (Shift Left Security).
+                No-Code / Low-Code: Herramientas que permiten crear aplicaciones básicas sin escribir código, permitiendo que personas de negocios participen en la creación de software.
+                Conclusión: El desarrollo de software es el lenguaje de la arquitectura moderna. No se trata solo de hablar con máquinas, sino de traducir necesidades humanas a soluciones digitales escalables.
+            </p>
+        </div>
+    </section>
+
+    <section id="Gadget" class="seccionPrincipal">
+        <div class="contenedor">
+            <h1>Gadget 2026</h2>
+            <p>
+            En 2026, el mundo de los gadgets ha dado un salto importante: ya no solo se trata de pantallas más 
+            brillantes, sino de lo que la industria llama "IA física". La tecnología ha dejado de estar solo en
+             la nube para integrarse en objetos cotidianos que se mueven, sienten y reaccionan.<br><br>  
+             Aquí tienes el resumen de lo más destacado de este año:<br><br>
+             1. Robótica Doméstica (Útil por fin)Después de años de prototipos, los robots han salido de su fase 
+             experimental para realizar tareas complejas:Roborock Saros Rover: El primer robot aspirador que 
+             realmente puede subir escaleras mediante un sistema de "patas" articuladas, eliminando la última 
+             barrera para la limpieza total del hogar.LG CLOiD: Un asistente doméstico capaz de realizar tareas 
+             multitarea, como ayudar a descargar el lavavajillas o doblar ropa, aunque todavía a una velocidad 
+             pausada.  Zeroth Robotics W1: Un robot "compañero" que sirve tanto para patrullar la seguridad de 
+             la casa como para acompañarte en un campamento cargando equipo.<br><br>  
+             2. Wearables: Salud Predictiva y Control MentalLos relojes y anillos ya no solo cuentan pasos; 
+             ahora intentan "leerte":Naqi Neural Earbuds: Unos auriculares que permiten controlar computadoras 
+             y dispositivos inteligentes mediante ligeros movimientos de la mandíbula o inclinaciones de la 
+             cabeza (interfaz neuronal no invasiva).  Anillos Inteligentes de 2.ª Generación: Liderados por el 
+             Samsung Galaxy Ring 2 y el Oura Gen4, ahora incluyen alertas predictivas que te avisan si te vas a 
+             enfermar días antes de que sientas síntomas.Mira Ultra4: Un monitor de hormonas doméstico que permite 
+             a las mujeres trackear su salud reproductiva con precisión de laboratorio desde casa.<br><br>  
+             3. Dispositivos Móviles y PantallasSamsung Galaxy S26 Ultra: Se consolida como el rey de la "IA en el 
+             dispositivo", procesando fotos y traducciones en tiempo real sin necesidad de internet, gracias al chip 
+             Snapdragon 8 Elite Gen 5.  El año de los Plegables: Con el rumoreado lanzamiento del primer iPhone 
+             plegable para finales de año, esta categoría ha pasado de ser un lujo a ser el estándar.  LG Wallpaper 
+             OLED W6: Una televisión de apenas 9mm de grosor que se pega a la pared como un póster y recibe energía 
+             y video de forma totalmente inalámbrica.  4. Gadgets Curiosos y de Estilo de VidaCuchillo Ultrasónico 
+             (Seattle Ultrasonic): Un cuchillo de cocina que vibra 30,000 veces por segundo, permitiendo cortar 
+             alimentos blandos (como tomates maduros) sin ejercer ninguna presión.  LEGO Smart Play: Ladrillos 
+             electrónicos con sensores y luces que reaccionan al movimiento, llevando el juego físico a un nivel 
+             interactivo sin necesidad de pantallas.  Clicks Communicator: Un accesorio de teclado físico para 
+             smartphones que ha ganado mucha tracción entre quienes extrañan la sensación táctil de las antiguas 
+             BlackBerry.Tendencia Clave del 2026: "Sostenibilidad Invisible"Muchos gadgets de este año, como el 
+             simpleSwitch, se enfocan en la gestión energética del hogar, permitiendo por ejemplo cargar autos 
+             eléctricos en casas viejas sin necesidad de cambiar todo el panel eléctrico.  
+            </p>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <div class="contenedor">
+            <p>2026 InnoTech .:. JFMG. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

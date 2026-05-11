@@ -1,0 +1,135 @@
+/* Reseteo básico de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #8888e6;
+    color: #333;
+    line-height: 1.6;
+}
+
+.contenedor {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header (Barra de navegación) */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 1.5rem 0;
+    font-size: x-large;
+}
+
+header .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #48bb78;
+}
+
+/* Sección Principal (Banner principal) */
+.seccionPrincipal {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.seccionPrincipal h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Sección de artículos en cuadrícula */
+#articulos {
+    padding: 3rem 0;
+}
+
+#articulos h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2d3748;
+}
+
+.cuadricula-articulos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.tarjetas {
+    background: #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+a {
+    color: inherit; /* Eliminar el color del enlace */
+    text-decoration: none; /* Eliminar el suybrayado de los enlaces */
+}
+
+.tarjetas:hover {
+    transform: translateY(-5px); /* Transforma la tarjeta (objeto) desplazando 5px hacia arriba */
+    box-shadow: 0 12px 24px rgba(0,0,0,0.7); /* Proyecta yba sombra oscura */
+}
+
+.tarjetas img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tarjetas h3, p {
+    padding: 0.25rem 1.5rem;
+}
+
+.tarjetas p {
+    padding-right: 5;
+}
+
+.tarjetas h3 {
+    color: #2b6cb0;
+}
+
+.contenedor-tabla {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+}
+
+/* Pie de página (Footer) */
+footer {
+    background-color: #1a202c;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
