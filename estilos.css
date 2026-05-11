@@ -87,6 +87,7 @@ header nav a:hover {
 .tarjetas {
     background: #fff;
     border-radius: 25px;
+    border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
@@ -100,6 +101,8 @@ a {
 .tarjetas:hover {
     transform: translateY(-5px); /* Transforma la tarjeta (objeto) desplazando 5px hacia arriba */
     box-shadow: 0 12px 24px rgba(0,0,0,0.7); /* Proyecta yba sombra oscura */
+.tarjetas:hover {
+    transform: translateY(-5px);
 }
 
 .tarjetas img {
@@ -114,6 +117,8 @@ a {
 
 .tarjetas p {
     padding-right: 5;
+    .tarjetas h3, .card p {
+    padding: 1rem 1.5rem;
 }
 
 .tarjetas h3 {
